@@ -1,0 +1,319 @@
+@font-face {
+    font-family: Cooperltbt;
+    src: url(./CooperLightBT.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cooperltbt;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 199;
+    background-color: white;
+
+}
+#dot{
+    color: springgreen;
+}
+.name{
+    font-size: 32px;
+    font-weight: 600;
+   
+    display: flex;
+
+}
+
+ul{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: springgreen;
+}
+
+
+a{
+    text-decoration: none;
+    color: #222;
+    margin: 0 20px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+    margin-left: 10px;
+}
+
+#green{
+    height: 45px;
+    
+    font-size: 18px;
+   
+    padding: 0px 20px;
+    border-radius: 50px;
+    background-color: white;
+    
+    border: 1px solid #000;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, springgreen 50%);
+    transition: background-position 3s ease;
+}
+
+
+#green:hover{
+    background-position: -100% 0;
+    cursor: pointer;
+}
+
+#hero{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-text{
+    font-size: 5.2vw;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    top: 4.5%;
+    z-index: 99;
+    
+
+
+}
+
+#hero-text::after{
+    content:"";
+    position: absolute;
+    height: 16px;
+    width: 23%;
+    left: 39%;
+    bottom: -2%;
+    background-image: url(underline.svg);
+    /* transform: translate(-50%,0); */
+}
+
+.images{
+    z-index: 1;
+}
+
+.one{
+    height: 516.41px;
+    width: 358px;
+    position: absolute;
+    right:68%;
+    top: 15%;
+}
+
+.two{
+    height: 215.04px;
+    width: 256px;
+    position: absolute;
+    right:23.8%;
+    top: 18%;
+}
+
+.three{
+    height: 276.5px;
+    width: 276.5px;
+    position: absolute;
+    right:9.5%;
+    top: 54%;
+}
+
+#hero-button{
+    position: relative;
+    top:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.text1{
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#green1{
+    height: 40px;
+    
+    font-size: 18px;
+   
+    padding: 0px 20px;
+    border-radius: 50px;
+    background-color: white;
+    
+    border: 1px solid #000;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, springgreen 50%);
+    transition: background-position 3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#green1:hover{
+    background-position: -100% 0;
+    cursor: pointer;
+}
+
+.one{
+    transition: margin-top 0.8s ease;
+}
+
+.one:hover{
+    margin-top: -10px;
+}
+
+.two{
+    transition: margin-top 0.8s ease;
+}
+
+.two:hover{
+    margin-top: -10px;
+}
+
+.three{
+    transition: margin-top 0.8s ease;
+}
+
+.three:hover{
+    margin-top: -10px;
+}
+
+.page2{
+    height: 70vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#text2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 21px;
+    margin: 20px;
+
+}
+
+#dot2{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: springgreen;
+
+    
+}
+
+#text3{
+    margin: 15px;
+    width: 80vw;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+.text4{
+    margin-right: 10px;
+}
+
+
+#green2{
+    height: 40px;
+    
+    font-size: 18px;
+   
+    padding: 0px 20px;
+    border-radius: 50px;
+    background-color: black;
+    
+    border: 1px solid white;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, springgreen 50%);
+    transition: background-position 3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#green2:hover{
+    background-position: -100% 0;
+    cursor: pointer;
+}
+
+.strong{
+    width: 200px;
+    position: relative;
+}
+
+.strong::after{
+    content:"";
+    position: absolute;
+    height: 70px;
+    width: 180px;
+    left: 316%;
+    bottom: -10%;
+    margin: -11px 0px;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    /* transform: translate(-50%,0); */
+}
+
